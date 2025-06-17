@@ -1,6 +1,7 @@
 {
   "name": "dwba4-semana-11",
   "version": "0.1.0",
+  "homepage": "https://marianaolvr11.github.io/dwba4-semana-11-pt3031551",
   "private": true,
   "dependencies": {
     "@testing-library/dom": "^10.4.0",
@@ -14,9 +15,9 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+  "build": "react-scripts build",
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
